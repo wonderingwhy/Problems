@@ -1,0 +1,10 @@
+cmake_minimum_required(VERSION 3.9)
+project(KickStart2017B)
+
+set(CMAKE_CXX_STANDARD 11)
+SET(CMAKE_CXX_FLAGS "-O3 -std=c++11 -pthread")
+SET(CMAKE_C_FLAGS "-O3 -std=c++11 -fopenmp -pthread")
+add_executable(KickStart2017B main.cpp)
+add_executable(A A.cpp)
+add_executable(B B.cpp)
+add_executable(C C.cpp)
